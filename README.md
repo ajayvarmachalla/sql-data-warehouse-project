@@ -20,6 +20,22 @@ This project involves:
 
 ---
 
+# 🏗️ Project Architecture
+
+The project follows the **Medallion Architecture**, organizing data into Bronze, Silver, and Gold layers to ensure scalable, maintainable, and analytics-ready data processing.
+
+<p align="center">
+  <img src="docs/architecture.drawio.png" alt="Data Warehouse Architecture" width="900">
+</p>
+
+### Architecture Overview
+
+* **Bronze Layer:** Stores raw ERP and CRM data exactly as received from the source systems.
+* **Silver Layer:** Cleanses, validates, standardizes, and integrates the raw data.
+* **Gold Layer:** Creates business-ready dimension and fact tables using a **Star Schema** for reporting and analytics.
+
+---
+
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -82,17 +98,7 @@ This project demonstrates practical experience in:
 
 ---
 
-## 📂 Project Architecture
-
-The project follows the **Medallion Architecture**, consisting of three logical layers:
-
-* **Bronze Layer** – Stores raw data imported directly from source systems.
-* **Silver Layer** – Cleanses, validates, standardizes, and integrates the raw data.
-* **Gold Layer** – Creates business-ready dimension and fact tables optimized for reporting and analytics.
-
----
-
-## ⭐ Data Warehouse Components
+## 📂 Data Warehouse Components
 
 ### Bronze Layer
 
@@ -153,4 +159,5 @@ I am continuously expanding my knowledge in data engineering and analytics while
 Thank you for visiting my project repository. I hope you find it useful and insightful.
 
 ---
+
 
