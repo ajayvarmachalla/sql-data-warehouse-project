@@ -25,7 +25,7 @@ This project involves:
 The project follows the **Medallion Architecture**, organizing data into Bronze, Silver, and Gold layers to ensure scalable, maintainable, and analytics-ready data processing.
 
 <p align="center">
-  <img src="docs/architecture.drawio.png" alt="Data Warehouse Architecture" width="900">
+  <img src="docs/Architecture.drawio.png" alt="Data Warehouse Architecture" width="900">
 </p>
 
 ### Architecture Overview
